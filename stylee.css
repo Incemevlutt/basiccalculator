@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(138, 184, 243);
+}
+
+.calculator{
+text-align: center;
+}
+#num-one,#num-two{
+    width: 10em;
+    height: 2em;
+}
+#box1,#box2,#box3,#box4{
+    width: 15px;
+    height: 15px;
+}
+#calculatebtn{
+    width: 10em;
+    height: 2em;
+}
+#resetbtn{
+    width: 6em;
+    height: 2em;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+       <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>basic calculator</title>
+     <link href="stylee.css" rel="stylesheet">
+       </head>
+
+        <body>
+        <div class="calculator">
+            <br>
+            <br>
+           <input type="text" name="num-one" id="num-one">
+           <input type="text" name="num-two" id="num-two">
+           <br>
+           <br>
+           <input type="radio" name="signarea" id="box1" value="add"><b>+</b>
+           <input type="radio" name="signarea" id="box2" value="substract"><b>-</b>
+           <input type="radio" name="signarea" id="box3" value="multiply"><b>*</b>
+           <input type="radio" name="signarea" id="box4" value="divide"><b>/</b>
+           
+            <br>
+            <br>
+           <button type="button" id="calculatebtn" onclick="outcome()">calculate</button>
+           <h1 id="result-area"></h1>
+           <button type="button" id="resetbtn" onclick="reset()">reset</button>
+
+        </div>
+        <script src="calculator.js"></script>
+     </body>
+</html>
